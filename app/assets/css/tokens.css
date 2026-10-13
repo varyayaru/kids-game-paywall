@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #__nuxt {
+    min-height: 100%;
+  }
+
+  body {
+    margin: 0;
+    font-family: Nunito, system-ui, sans-serif;
+    background: #fff6e8;
+    color: #2c1a12;
+  }
+
+  button,
+  a {
+    font-family: inherit;
+  }
+}
